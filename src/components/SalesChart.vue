@@ -58,28 +58,6 @@ const config = {
             backgroundColor: 'rgb(209 250 229)',
             borderColor: 'rgb(16 185 129)'
         }]
-    },
-    options: {
-        scales: {
-            x: {
-                grid: {
-                    display: false
-                }
-            },
-            y: {
-                grid: {
-                    display: false
-                }
-            }
-        },
-        plugins: {
-            legend: {
-                font: {
-                    size: 18,
-                    family: ''
-                }
-            }
-        }
     }
 }
 

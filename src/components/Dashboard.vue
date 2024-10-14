@@ -1,6 +1,7 @@
 <script setup>
 import Card from './Card.vue'
 import SalesChart from './SalesChart.vue'
+import PerformanceChart from './PerformanceChart.vue'
 
 const data = [
     {
@@ -33,12 +34,12 @@ const data = [
                   :key="index"></Card>
         </div>
     </section>
-    <section class="flex flex-row">
+    <section class="flex flex-column md:flex-row">
         <div class="w-100 md:w-1/2 lg:w-1/3">
             <SalesChart></SalesChart>
         </div>
-        <div class="w-1/2">
-
+        <div class="w-100 md:w-1/2 lg:w-1/3">
+            <PerformanceChart></PerformanceChart>
         </div>
     </section>
 </template>
