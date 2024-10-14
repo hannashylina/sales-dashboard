@@ -35,10 +35,10 @@ const data = [
         </div>
     </section>
     <section class="flex flex-column md:flex-row">
-        <div class="w-100 md:w-1/2 lg:w-1/3">
+        <div class="w-100 md:w-1/2">
             <SalesChart></SalesChart>
         </div>
-        <div class="w-100 md:w-1/2 lg:w-1/3">
+        <div class="w-100 md:w-1/2">
             <PerformanceChart></PerformanceChart>
         </div>
     </section>
