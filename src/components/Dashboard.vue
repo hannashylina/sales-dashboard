@@ -1,5 +1,6 @@
 <script setup>
 import Card from './Card.vue'
+import SalesChart from './SalesChart.vue'
 
 const data = [
     {
@@ -30,6 +31,14 @@ const data = [
             <Card v-for="(item, index) in data"
                   :data="item"
                   :key="index"></Card>
+        </div>
+    </section>
+    <section class="flex flex-row">
+        <div class="w-100 md:w-1/2 lg:w-1/3">
+            <SalesChart></SalesChart>
+        </div>
+        <div class="w-1/2">
+
         </div>
     </section>
 </template>
