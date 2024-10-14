@@ -26,7 +26,7 @@ const data = [
         <h1 class="text-3xl font-bold">
             Sales Dashboard
         </h1>
-        <div class="grid grid-cols-1 sm:grid-cols-4 py-6 sm:py-8 grid gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 py-6 sm:py-8 grid gap-4">
             <Card v-for="(item, index) in data"
                   :data="item"
                   :key="index"></Card>
