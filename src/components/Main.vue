@@ -1,13 +1,9 @@
 <script setup>
-
+import Dashboard from './Dashboard.vue'
 </script>
 
 <template>
-  <div>
-      <h1 class="text-3xl font-bold underline">
-          Hello world!
-      </h1>
-  </div>
+  <Dashboard></Dashboard>
 </template>
 
 <style scoped>
